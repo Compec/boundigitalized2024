@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: #333;
+    background: #14184e;
     color: #fff;
     padding: 10px 0;
 }
@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-    background: #333;
+    background: #14184e;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -41,3 +41,47 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+.giris {
+    padding-left: 6%;
+    padding-top: 6%; 
+    
+}
+
+.heading {
+    background: -webkit-linear-gradient(45deg, #14184e, white ); /* Gradient colors */
+    -webkit-background-clip: text;14184e
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
+    background-clip: text;
+    color: transparent;
+    font-size: 80px; 
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.aciklama {
+    color: #5836db;
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 1%;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  body {
+    /* Define the gradient colors and direction */
+    background: linear-gradient(-90deg, #aba2ce, white);
+    /* Make the gradient cover the entire background */
+    background-size: 200% 200%;
+    /* Apply the animation */
+    animation: animatedBackground 10s ease infinite;
+  }
