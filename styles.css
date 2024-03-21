@@ -1,21 +1,31 @@
 body {
+    background-color:#14184e;
     font-family: Montserrat, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
+.logo {
+    padding-left: 4%;
+    height: 50px;
+    position:absolute;
+    top: 1.5%;
+}
+
 header {
-    background: #14184e;
+    background-color: #5836db;
     color: #fff;
     padding: 10px 0;
+    height: 50px;
 }
 
 nav#navbar ul {
     padding: 0;
     list-style: none;
     text-align: right;
-    margin-right: 10%;
+    margin-right: 7%;
+    margin-top: 0.8%;
 }
 
 nav#navbar ul li {
@@ -23,38 +33,38 @@ nav#navbar ul li {
 }
 
 nav#navbar ul li a {
+    font-size: 22px;
     color: white;
-    padding: 10px 15px;
+    padding: 8px;
     text-decoration: none;
 }
 
 main {
-    padding: 20px;
+    padding: 10%;
 }
 
 footer {
-    background: #14184e;
+    background: #5836db;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position:unset;
     bottom: 0;
     width: 100%;
 }
 
 
 .giris {
+    position: absolute;
+    z-index: 1;
     padding-left: 6%;
-    padding-top: 6%; 
+    height: 10%;
+    top: 33%;
     
 }
 
 .heading {
-    background: -webkit-linear-gradient(45deg, #14184e, white ); /* Gradient colors */
-    -webkit-background-clip: text;14184e
-    -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
-    background-clip: text;
-    color: transparent;
+    color: white;
     font-size: 80px; 
     font-weight: bold; 
     display: flex; 
@@ -63,25 +73,80 @@ footer {
 }
 
 .aciklama {
-    color: #5836db;
+    font-size: 30px; 
+    background: -webkit-linear-gradient(180deg, white,#afa5d8); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    color: transparent;
     font-weight: bold; 
     display: flex; 
     align-items: center; 
     justify-content: flex-start; 
-    padding-left: 1%;
+    padding-left: 0.5%;
+}
+#home {
+  clip-path: url(#cache);
 }
 
-@keyframes animatedBackground {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  
-  body {
-    /* Define the gradient colors and direction */
-    background: linear-gradient(-90deg, #aba2ce, white);
-    /* Make the gradient cover the entire background */
-    background-size: 200% 200%;
-    /* Apply the animation */
-    animation: animatedBackground 10s ease infinite;
-  }
+#red {
+  fill: none;
+  stroke: white;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+}
+
+#blue {
+  fill: none;
+  stroke: gray;
+  opacity: 0.3;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#light-blue {
+  fill: none;
+  opacity: 0.3;
+  stroke: #5836db;
+  stroke-width: 6;
+  stroke-miterlimit:10;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;    
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+ }
+    }
+
+@keyframes show {
+  0% {
+    opacity: 0.15;
+ }
+  50% {
+    opacity: 0.2;
+ }
+  100% {
+    opacity: 0.15;
+ }
+    }
+
+
+.background {
+    z-index: -1;
+    padding: 0;
+}
+
