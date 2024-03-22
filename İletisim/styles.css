@@ -1,0 +1,59 @@
+body {
+    background-color:#14184e;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-left: 4%;
+    height: 50px;
+    position:absolute;
+    top: 1.5%;
+}
+
+header {
+    background-color: #5836db;
+    color: #fff;
+    padding: 10px 0;
+    height: 50px;
+}
+
+nav#navbar ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    margin-right: 4%;
+    margin-top: 0.8%;
+}
+
+nav#navbar ul li {
+    display: inline;
+}
+
+nav#navbar ul li a:hover {
+  color:#14184e;
+}
+
+
+nav#navbar ul li a {
+    font-size: 22px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+main {
+    padding: 10%;
+}
+
+footer {
+    background: #5836db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:unset;
+    bottom: 0;
+    width: 100%;
+}
