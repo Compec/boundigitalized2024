@@ -1,13 +1,9 @@
-
-
 .logo {
   padding-left: 4%;
   height: 50px;
   position:absolute;
-  top: 1.5%;
+  top: 1%;
 }
-
-
 
 header {
   background-color: #5736db48;
@@ -18,11 +14,10 @@ header {
 }
 
 nav#navbar ul {
-  padding: 0;
   list-style: none;
   text-align: right;
   margin-right: 4%;
-  margin-top: 0.8%;
+  margin-top: 12px;
 }
 
 nav#navbar ul li {
@@ -30,12 +25,12 @@ nav#navbar ul li {
 }
 
 nav#navbar ul li a:hover {
-color:#14184e;
+  color:#14184e;
 }
 
 
 nav#navbar ul li a {
-  font-size: 22px;
+  font-size: clamp(18px, 1.8vw, 24px);
   color: white;
   padding: 8px;
   text-decoration: none;
@@ -79,7 +74,7 @@ height: 100vh;
 
 
 .logo3d {
-  width:50vh;
+  width:22vw;
   height: auto;
 }
 .logosec {
@@ -88,37 +83,36 @@ height: 100vh;
   top: 18vh;
 }
 .giris {
+  display: inline-flex;
+  /*
   position: absolute;
   height: 8%;
   top: 26vh;
   left: 7vh;
-
+*/
 
 }
 
 .heading {
    
   color: white;
-  font-size: 97px;
+  font-size: 4.8vw;
   font-weight: bold;
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 
 .aciklama {
    
-  font-size: 40px;
+  font-size: 2.4vw;
   background: -webkit-linear-gradient(180deg, white, #afa5d8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   font-weight: bold;
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
+  margin: auto;
   padding-left: 0.5%;
 }
 
