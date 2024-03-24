@@ -1,238 +1,97 @@
 body {
-    background-color:#14184e;
-    font-family: Montserrat, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  background-color: #14184e;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-    padding-left: 4%;
-    height: 50px;
-    position:absolute;
-    top: 1.5%;
+  padding-left: 4%;
+  height: 50px;
+  position: absolute;
+  top: 1.5vh;
 }
 
 header {
-    background-color: #5836db;
-    color: #fff;
-    padding: 10px 0;
-    height: 50px;
+  background-color: #5836db;
+  color: #fff;
+  padding: 10px 0;
+  height: 50px;
 }
 
 nav#navbar ul {
-    padding: 0;
-    list-style: none;
-    text-align: right;
-    margin-right: 4%;
-    margin-top: 0.8%;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  margin-right: 4%;
+  margin-top: 0.8%;
 }
 
 nav#navbar ul li {
-    display: inline;
+  display: inline;
 }
 
 nav#navbar ul li a:hover {
-  color:#14184e;
+  color: #14184e;
 }
 
 
 nav#navbar ul li a {
-    font-size: 22px;
-    color: white;
-    padding: 8px;
-    text-decoration: none;
+    
+  font-size: 22px;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
 }
 
 main {
-    padding: 10%;
+  padding: 10%;
 }
 
 footer {
-    background: #5836db;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position:unset;
-    bottom: 0;
-    width: 100%;
+    
+  background: #5836db;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 
 .giris {
-    position: absolute;
-    z-index: 1;
-    padding-left: 8%;
-    height: 8%;
-    top: 28%;
-    
+  position: absolute;
+  padding-left: 0.1vh;
+  height: 8%;
+  top: 20%;
+
 }
 
 .heading {
-    color: white;
-    font-size: 80px; 
-    font-weight: bold; 
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-start; 
+   
+  color: white;
+  font-size: 97px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 
 .aciklama {
-    font-size: 30px; 
-    background: -webkit-linear-gradient(180deg, white,#afa5d8); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    background-clip: text;
-    color: transparent;
-    font-weight: bold; 
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-start; 
-    padding-left: 0.5%;
+   
+  font-size: 40px;
+  background: -webkit-linear-gradient(180deg, white, #afa5d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0.5%;
 }
 
-.logo3d {
-  width: 390px;
-  height: auto;
-  position: absolute;
-  z-index: 1;
-  padding-left: 69.5%;
-  top: 18%;
-  transition: all 1s ease;
-}
-  
-
-#home {
-  clip-path: url(#cache);
-}
-
-#red {
-  fill: none;
-  stroke: #5836db;
-  stroke-width: 12;
-  stroke-miterlimit:10;
-  animation: show 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; 
-}
-
-#blue {
-  fill: none;
-  stroke: #5836db;
-  opacity: 0.3;
-  stroke-width: 12;
-  stroke-miterlimit:10;
-  animation: show 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-#light-blue {
-  fill: none;
-  opacity: 0.3;
-  stroke: rgb(231, 190, 224);
-  stroke-width: 6;
-  stroke-miterlimit:10;
-  stroke-dasharray: 200;
-  stroke-dashoffset: 800;
-  animation: draw 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;    
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
- }
-    }
-
-@keyframes show {
-  0% {
-    opacity: 0.15;
- }
-  50% {
-    opacity: 0.2;
- }
-  100% {
-    opacity: 0.15;
- }
-    }
-
-
-.background {
-    z-index: -1;
-    padding: 0;
-}
-
-
-
-
-@media only screen and (max-width: 333px) {
-  .background svg {
-    width: 100vw; /* Scale based on viewport width */
-    height: 100vh; /* Scale based on viewport height */
-    max-height: 1280px; /* Maximum height */
-    max-width: 2024px; /* Maximum width */
-    preserveAspectRatio: "xMidYMid meet"; /* Adjust this as needed */
-  }
-  
-  }
-  
-  
-  nav#navbar ul li   {
-    display: none;
-  }
-
-  .giris, .logo3d, .aciklama, .heading {
-    justify-content: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 12px;
-  }
-
-  header {
-    width: 100%;
-    position: fixed;
-  }
-
-
-  .heading {
-    font-size:80px;
-  }
-
-  .aciklama {
-    font-size:30px;
-  }
-
-  footer {
-    position:fixed;
-    font-size: 15px;
-  }
-
-  .logo3d {
-    display: none;
-  }
-
-  
-  }
-@media only screen and (min-width: 334px) and (max-width: 400px) {
-  
-  }
-
-  @media only screen and (min-width: 401px) and  (max-width: 600px) {
-    
-  
-    
-    }
-  @media only screen and (min-width: 334px) and (max-width: 400px) {
-    
-
-}
-
-@media only screen and (min-width: 1301px) {
- 
-}
