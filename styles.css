@@ -1,15 +1,15 @@
 .logo {
   padding-left: 4%;
-  height: 50px;
+  height: 8vh;
   position:absolute;
-  top: 1%;
+  top: 2vh
 }
 
 header {
   background-color: #5736db48;
   color: #fff;
-  padding: 10px 0;
-  height: 50px;
+  padding: 2vh 0;
+  height: 8vh;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ nav#navbar ul {
   list-style: none;
   text-align: right;
   margin-right: 4%;
-  margin-top: 12px;
+  margin-top: 2vh;
 }
 
 nav#navbar ul li {
@@ -32,21 +32,21 @@ nav#navbar ul li a:hover {
 nav#navbar ul li a {
   font-size: clamp(18px, 1.8vw, 24px);
   color: white;
-  padding: 8px;
+  padding: 1vh;
   text-decoration: none;
 }
 
 main {
-  padding: 10%;
+  padding: 6% 6% 0 6%;
 }
 
 footer {
   background: #5736db48;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 2vh 0;
   width: 100%;
-  position: absolute;
+  position:relative;
   bottom: 0;
 }
 
@@ -54,10 +54,10 @@ body {
 background: linear-gradient(-45deg, #14184e, #6e3788, #14184e, #5836db);
 background-size: 400% 400%;
 animation: gradient 15s ease infinite;
-height: 100vh;
-  font-family: Montserrat, sans-serif;
-  margin: 0;
-  padding: 0;
+height: 120vh;
+font-family: Montserrat, sans-serif;
+margin: 0;
+padding: 0;
 }
 
 @keyframes gradient {
@@ -94,17 +94,15 @@ height: 100vh;
 }
 
 .heading {
-   
   color: white;
-  font-size: 4.8vw;
+  font-size: 6vw;
   font-weight: bold;
   align-items: center;
 }
 
 
 .aciklama {
-   
-  font-size: 2.4vw;
+  font-size: 3.4vw;
   background: -webkit-linear-gradient(180deg, white, #afa5d8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -116,3 +114,51 @@ height: 100vh;
   padding-left: 0.5%;
 }
 
+@media only screen and (max-width:800px) {
+  nav#navbar ul {
+    display: none;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  color:#fff;
+}
+
+.btn:hover {
+  display: block;
+  cursor: pointer;
+  font-size: 4vh;
+  font-weight: 700;
+  border: none;
+  color: #14184e;
+  background-color: white;
+}
+  
+.btn {
+  display: block;
+  font-size: 4vh;
+  font-weight: 700;
+  border: none;
+  margin: 10vh auto;
+  padding: 3vh 3vh;
+  border-radius: 2vh;
+  color: #fff;
+  background-color: #14184e;
+  position: absolute;
+  right: 20vh;
+  top: 80vh;
+}
+
+.bilet {
+  font-size: 3.4vw;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  margin: auto;
+  padding-left: 0.5%;
+  align-items: center;
+  margin-top: 28vh;
+
+
+}
