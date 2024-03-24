@@ -1,62 +1,82 @@
-body {
-    background: linear-gradient(90deg, #14184e, #5836db);
-    font-family: Montserrat, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
+
 
 .logo {
     padding-left: 4%;
     height: 50px;
     position:absolute;
     top: 1.5%;
-}
-
-header {
-    background-color: #5836db;
+  }
+  
+  
+  
+  header {
+    background-color: #5736db48;
     color: #fff;
     padding: 10px 0;
     height: 50px;
-}
-
-nav#navbar ul {
+    width: 100%;
+  }
+  
+  nav#navbar ul {
     padding: 0;
     list-style: none;
     text-align: right;
     margin-right: 4%;
     margin-top: 0.8%;
-}
-
-nav#navbar ul li {
+  }
+  
+  nav#navbar ul li {
     display: inline;
-}
-
-nav#navbar ul li a:hover {
+  }
+  
+  nav#navbar ul li a:hover {
   color:#14184e;
-}
-
-
-nav#navbar ul li a {
+  }
+  
+  
+  nav#navbar ul li a {
     font-size: 22px;
     color: white;
     padding: 8px;
     text-decoration: none;
-}
-
-main {
+  }
+  
+  main {
     padding: 10%;
-}
-
-footer {
-    background: #5836db;
+  }
+  
+  footer {
+    background: #5736db48;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position:absolute;
-    bottom: 0;
     width: 100%;
-}
+    position: absolute;
+    bottom: 0;
+  }
+  
+  body {
+  background: linear-gradient(-45deg, #14184e, #6e3788, #14184e, #5836db);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  }
+  
 
 .gun {
     border: 5px solid ,#14184e;
