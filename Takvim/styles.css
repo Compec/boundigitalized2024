@@ -7,7 +7,10 @@
     top: 1.5%;
   }
   
-  
+  .container {
+    color: #fff;
+    font-size: larger;
+  }
   
   header {
     background-color: #5736db48;
@@ -43,6 +46,7 @@
   
   main {
     padding: 10%;
+    margin-top: -5%;
   }
   
   footer {
@@ -51,7 +55,7 @@
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
   
@@ -60,9 +64,9 @@
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
-    font-family: Montserrat, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
   }
   
   @keyframes gradient {
