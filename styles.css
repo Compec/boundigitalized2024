@@ -52,7 +52,7 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 200vh;
+  height: 220vw;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
@@ -104,7 +104,7 @@ body {
 
 
 .aciklama {
-  font-size: 3.4vw;
+  font-size: 2.5vw;
   background: -webkit-linear-gradient(180deg, white, #afa5d8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -148,7 +148,6 @@ body {
   width: 70%;
 }
 
-.container {}
 
 .test_box {
   padding: 0;
