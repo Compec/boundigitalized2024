@@ -111,3 +111,8 @@ button:hover {
   color: #fff;
   font-size: larger;
 }
+
+.footerlogo {
+  height: 8vw;
+  width: auto;
+}
