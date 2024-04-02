@@ -1,86 +1,78 @@
-
-
 .logo {
-    padding-left: 4%;
-    height: 50px;
-    position:absolute;
-    top: 1.5%;
-  }
-  
-  .container {
-    color: #fff;
-    font-size: larger;
-  }
-  
-  header {
-    background-color: #5736db48;
-    color: #fff;
-    padding: 10px 0;
-    height: 50px;
-    width: 100%;
-  }
-  
-  nav#navbar ul {
-    padding: 0;
-    list-style: none;
-    text-align: right;
-    margin-right: 4%;
-    margin-top: 0.8%;
-  }
-  
-  nav#navbar ul li {
-    display: inline;
-  }
-  
-  nav#navbar ul li a:hover {
-  color:#14184e;
-  }
-  
-  
-  nav#navbar ul li a {
-    font-size: 22px;
-    color: white;
-    padding: 8px;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 10%;
-    margin-top: -5%;
-  }
-  
-  footer {
-    background: #5736db48;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-  }
-  
-  body {
-  background: linear-gradient(-45deg, #14184e, #6e3788, #14184e, #5836db);
+  padding-left: 4%;
+  height: 8vh;
+  position: absolute;
+  top: 2vh
+}
+
+header {
+  background-color: #5736db48;
+  color: #fff;
+  padding: 2vh 0;
+  height: 6.7vh;
+  width: 100%;
+}
+
+nav#navbar ul {
+  list-style: none;
+  text-align: right;
+  margin-right: 4%;
+  margin-top: 2vh;
+}
+
+nav#navbar ul li {
+  display: inline;
+}
+
+nav#navbar ul li a:hover {
+  color: #14184e;
+}
+
+
+nav#navbar ul li a {
+  font-size: 3.5vh;
+  color: white;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+main {
+  padding: 6% 6% 0 6%;
+}
+
+footer {
+  background: #5736db48;
+  color: white;
+  text-align: center;
+  padding: 2vh 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+body {
+  background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
+  animation: gradient 10s ease infinite;
+  height: 70vw;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
-  }
-  
-  @keyframes gradient {
+}
+
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
-  }
-  
+}
 
 
 @media only screen and (max-width:800px) {
@@ -113,4 +105,9 @@ button:hover {
   transition: all .3s ease-in;
   padding-right: 30px;
   padding-left: 30px;
+}
+
+.container {
+  color: #fff;
+  font-size: larger;
 }
