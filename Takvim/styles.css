@@ -131,3 +131,9 @@ button:hover {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow to make it pop */
 }
 
+.zirve {
+  border-radius: 5px;
+  width: 32vw;
+  height: auto;
+
+}
