@@ -53,7 +53,7 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 140vw
+  height: 160vw
     /*220vw*/
   ;
   font-family: Montserrat, sans-serif;
@@ -511,4 +511,19 @@ body {
   word-spacing: 1vw;
   font-size: 4vw;
 
+}
+.sponsorlogo {
+  border-radius: 5px;
+  background-color: white;
+  height: 18vw;
+  width: auto;
+}
+
+.spo {
+  font-size: 3.0vw;
+  color: goldenrod;
+  font-weight: bold;
+  align-items: center;
+  margin: auto;
+  padding-left: 0.5%;
 }
