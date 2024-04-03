@@ -53,7 +53,7 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 120vw;
+  height: 100vw;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
@@ -120,12 +120,12 @@ body {
   color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-  font-size:2.9vw;
+  font-size:2.3vw;
   border: 2px solid #afa5d8; /* Black border */
   padding: 20px; /* Spacing between the text and the border */
   margin: 50px auto; /* Center the box */
-  width: 75vw; /* Set the width of the box */
-  height: 35vw; /* Set the height of the box */
+  width: 70vw; /* Set the width of the box */
+  height: 30vw; /* Set the height of the box */
   display: flex; /* Use Flexbox to center the text vertically and horizontally */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -166,7 +166,7 @@ body {
   transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
   z-index: 100;
   opacity: 0;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translateY(225%) translateX(-50%);
   height: 14px;
