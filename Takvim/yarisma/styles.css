@@ -1,3 +1,6 @@
+* {
+  scrollbar-width: none;
+}
 .logo {
   padding-left: 4%;
   height: 8vh;
@@ -171,7 +174,7 @@ body {
   #menu {
     border-radius: 5px;
     position: absolute;
-    width: calc(100vw - 65px);
+    width: calc(100vw - 100px);
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
