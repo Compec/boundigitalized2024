@@ -53,7 +53,7 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 240vw;
+  height: 80vw;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
@@ -130,3 +130,5 @@ button:hover {
   background-color: #5d1a7c; /* Light grey background */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow to make it pop */
 }
+
+
