@@ -129,10 +129,17 @@ button:hover {
   align-items: center; /* Center vertically */
   background-color: #5d1a7c; /* Light grey background */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow to make it pop */
+  flex-direction: row;
 }
 .socials {
   color: white;
   word-spacing: 1vw;
   font-size: 4vw;
 
+}
+
+.guney {
+  border-radius: 5px;
+  width: 32vw;
+  height: auto;
 }

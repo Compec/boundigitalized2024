@@ -53,7 +53,9 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 100vw/*220vw*/;
+  height: 100vw
+    /*220vw*/
+  ;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
@@ -85,7 +87,7 @@ body {
   width: auto;
 }
 
- /*yukarı kısım her sayfada*/
+/*yukarı kısım her sayfada*/
 
 
 .logo3d {
@@ -355,7 +357,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #931f97;
+  background: #931f97;
   transform-origin: bottom center;
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: skewY(9.3deg) scaleY(0);
@@ -387,14 +389,5 @@ body {
   color: white;
   word-spacing: 1vw;
   font-size: 4vw;
-
-}
-
-.imgdiv {
-  width: 100%;
-  height: auto;
-}
-
-.photo {
 
 }
