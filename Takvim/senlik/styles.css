@@ -53,7 +53,7 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 60vw;
+  height: 120vw;
   font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
@@ -83,14 +83,14 @@ body {
 button {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   border-radius: .25rem;
   padding-left: 25px;
   padding-right: 25px;
   color: #14184e;
   -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
   clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
-  height: 3.4rem;
+  height: 2.4rem;
   transition: .2s .1s;
   background-image: linear-gradient(45deg, white, #afa5d8);
   border: 0 solid;
@@ -118,12 +118,12 @@ button:hover {
   color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-  font-size:2.5vw;
+  font-size:2.9vw;
   border: 2px solid #afa5d8; /* Black border */
   padding: 20px; /* Spacing between the text and the border */
   margin: 50px auto; /* Center the box */
-  width: 50vw; /* Set the width of the box */
-  height: 30vw; /* Set the height of the box */
+  width: 75vw; /* Set the width of the box */
+  height: 35vw; /* Set the height of the box */
   display: flex; /* Use Flexbox to center the text vertically and horizontally */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
