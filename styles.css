@@ -12,7 +12,7 @@ header {
   background-color: #5736db48;
   color: #fff;
   padding: 2vh 0;
-  height: 6.7vh;
+  height: 70px;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@ nav#navbar ul {
   list-style: none;
   text-align: right;
   margin-right: 4%;
-  margin-top: 2vh;
+  margin-top: 20px;
 }
 
 nav#navbar ul li {
@@ -98,7 +98,7 @@ body {
     margin-bottom: -5px;
 
     width: 100%;
-    height: 20vw;
+    height: 50px;
 
   }
 
@@ -108,8 +108,8 @@ body {
     width: calc(100vw - 65px);
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 15px;
+    left: 35px;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -175,7 +175,7 @@ body {
   #menu {
     border-radius: 5px;
     position: absolute;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 85px);
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
@@ -392,11 +392,13 @@ body {
 }
 
 .box-04 .inner {
-  background-image: url('https://picsum.photos/1024/768?image=1073');
+  background-image: url(/Assets/WhatsApp\ Image\ 2024-04-06\ at\ 11.01.45_713332bf.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
+
+/*
 
 .box-05 .inner {
   background-image: url('https://picsum.photos/1024/768?image=1032');
@@ -428,6 +430,8 @@ body {
   background-size: cover;
 
 }
+
+*/
 
 
 
@@ -521,11 +525,21 @@ body {
   width: auto;
 }
 
-.spo {
-  font-size: 3.0vw;
+.sponsorlar {
+  display: flex;
+  flex-direction: row;
+}
+
+.sponsor {
+  font-size: 22px;
   color: goldenrod;
   font-weight: bold;
-  align-items: center;
+  text-align: center;
   margin: auto;
   padding-left: 0.5%;
+}
+
+.sponsor p {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
