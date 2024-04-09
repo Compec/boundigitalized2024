@@ -45,7 +45,7 @@ main {
 footer {
   color: white;
   text-align: center;
-  padding: 2vh 0;
+  padding: 1.2vh 0;
   width: 100%;
   justify-content: flex;
   flex-direction: column;
@@ -231,15 +231,16 @@ body {
 }
 
 .footerlogo {
-  height: 8vw;
+  height: 90px;
   width: auto;
+  padding-left: 45px;
 }
 
 .text-box {
   color: white;
   border-radius: 5px;
   font-family: Montserrat, sans-serif;
-  font-size:2.3vw;
+  font-size: max(16px, 2.3vw);
   border: 2px solid #afa5d8; /* Black border */
   padding: 20px; /* Spacing between the text and the border */
   margin: 50px auto; /* Center the box */

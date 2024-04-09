@@ -45,10 +45,11 @@ main {
 footer {
   color: white;
   text-align: center;
-  padding: 2vh 0;
+  padding: 1.2vh 0.4vw;
   width: 100%;
   justify-content: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 body {
@@ -201,8 +202,9 @@ body {
 }
 
 .footerlogo {
-  height: 8vw;
+  height: 90px;
   width: auto;
+  padding-left: 45px;
 }
 
 /*yukarı kısım her sayfada*/
@@ -514,7 +516,7 @@ body {
 .socials {
   color: white;
   word-spacing: 1vw;
-  font-size: 4vw;
+  font-size: clamp(24px, 4vw, 48px);
 
 }
 .sponsorlogo {
@@ -541,4 +543,8 @@ body {
 .sponsor p {
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.test_box {
+  margin: 30px auto;
 }
