@@ -45,8 +45,7 @@ main {
 footer {
   color: white;
   text-align: center;
-  padding: 1.2vh 0.4vw;
-  width: 100%;
+  margin: 1.2vh 0.6vw;
   justify-content: flex;
   flex-direction: column;
   flex-wrap: wrap;

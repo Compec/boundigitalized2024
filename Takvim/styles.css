@@ -45,8 +45,7 @@ main {
 footer {
   color: white;
   text-align: center;
-  padding: 1.2vh 0.4vw;
-  width: 100%;
+  margin: 1.2vh 0.6vw;
   justify-content: flex;
   flex-direction: column;
 }
@@ -243,7 +242,7 @@ button:hover {
   padding: 20px; /* Spacing between the text and the border */
   margin: 50px auto; /* Center the box */
   width: 70vw; /* Set the width of the box */
-  height: 30vw; /* Set the height of the box */
+  height: fit-content; /* Set the height of the box */
   display: flex; /* Use Flexbox to center the text vertically and horizontally */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
