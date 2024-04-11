@@ -55,7 +55,6 @@ body {
   background: linear-gradient(-45deg, #1d2370, #6e3788, #14184e, #5d1a7c);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 160vw
     /*220vw*/
   ;
   font-family: Montserrat, sans-serif;
@@ -345,18 +344,22 @@ body {
   margin-top: -5px;
 }
 
+.flex_this > * {
+  margin-top: -0.7em;
+}
+
 .test_title {
   display: block;
   font-weight: 450;
   width: 100%;
-  font-size: 2.6vw;
+  font-size: max(18px, 2.6vw);
   font-family: Montserrat, sans-serif;
 }
 .test_aciklama {
   display: block;
   font-weight: 300;
   width: 100%;
-  font-size: 1.6vw;
+  font-size: max(12px, 1.6vw);
   font-family: Montserrat, sans-serif;
 
 }
@@ -398,22 +401,22 @@ body {
   background-size: contain;
 }
 
-/*
-
 .box-05 .inner {
-  background-image: url('https://picsum.photos/1024/768?image=1032');
+  background-image: url(/Assets/WhatsApp\ Image\ 2024-04-11\ at\ 18.59.01_586de8e2.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .box-06 .inner {
-  background-image: url('https://picsum.photos/1024/768?image=1080');
+  background-image: url(/Assets/WhatsApp\ Image\ 2024-04-11\ at\ 19.01.54_d6e64813.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
+
+/*
 
 .box-07 .inner {
   background-image: url('https://picsum.photos/1024/768?image=1080');
@@ -518,30 +521,37 @@ body {
   font-size: clamp(24px, 4vw, 48px);
 
 }
-.sponsorlogo {
+.sponsorlogo, .destekcilogo {
   border-radius: 5px;
   background-color: white;
   height: 18vw;
   width: auto;
 }
 
-.sponsorlar {
+.sponsorlar, .destekciler {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.sponsor {
+.sponsor, .destekci {
   font-size: 22px;
-  color: goldenrod;
   font-weight: bold;
   text-align: center;
   margin: auto;
   padding-left: 0.5%;
 }
 
+.altin {
+  color: goldenrod;
+}
+
+.platin {
+  color: 	lightgray;
+}
+
 .sponsor p {
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin: 10px 5px;
 }
 
 .test_box {
