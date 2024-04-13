@@ -416,29 +416,21 @@ body {
 
 }
 
-/*
-
 .box-07 .inner {
-  background-image: url('https://picsum.photos/1024/768?image=1080');
+  background-image: url(/Assets/WhatsApp\ Image\ 2024-04-13\ at\ 10.50.44_40e49cc8.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
 .box-08 .inner {
-  background-image: url('https://picsum.photos/1024/768?image=1080');
+  background-image: url(/Assets/WhatsApp\ Image\ 2024-04-13\ at\ 10.51.55_d21c0e59.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
-
-*/
-
-
-
-
 
 .button-cover {
   font-family: Montserrat, sans-serif;
